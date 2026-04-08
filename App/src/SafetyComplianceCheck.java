@@ -1,58 +1,39 @@
-import java.util.*;
-
-// Goods Bogie class
-class GoodsBogie {
-    String type;
-    String cargo;
-
-    public GoodsBogie(String type, String cargo) {
-        this.type = type;
-        this.cargo = cargo;
-    }
-
-    public void display() {
-        System.out.println(type + " -> " + cargo);
-    }
-}
-
 public class SafetyComplianceCheck {
+
+    // Custom Exception
+    static class InvalidCapacityException extends Exception {
+        public InvalidCapacityException(String message) {
+            super(message);
+        }
+    }
+
+    // Passenger Bogie class
+    static class PassengerBogie {
+        String name;
+        int capacity;
+
+        public PassengerBogie(String name, int capacity) throws InvalidCapacityException {
+            if (capacity <= 0) {
+                throw new InvalidCapacityException("Capacity must be greater than zero");
+            }
+            this.name = name;
+            this.capacity = capacity;
+        }
+    }
+
     public static void main(String[] args) {
 
-        System.out.println("======================================");
-        System.out.println("UC12 - Safety Compliance Check for Goods Bogies");
-        System.out.println("======================================");
+        try {
+            // Valid bogie
+            PassengerBogie b1 = new PassengerBogie("Sleeper", 72);
+            System.out.println("Created Bogie: " + b1.name + " -> " + b1.capacity);
 
-        // Create bogies
-        List<GoodsBogie> bogies = new ArrayList<>();
+            // Invalid bogie
+            PassengerBogie b2 = new PassengerBogie("AC Chair", 0);
+            System.out.println("Created Bogie: " + b2.name + " -> " + b2.capacity);
 
-        bogies.add(new GoodsBogie("Cylindrical", "Petroleum")); // valid
-        bogies.add(new GoodsBogie("Open", "Coal"));
-        bogies.add(new GoodsBogie("Box", "Grain"));
-
-        // 👉 Uncomment to test unsafe case
-        // bogies.add(new GoodsBogie("Cylindrical", "Coal"));
-
-        // Display bogies
-        System.out.println("\nGoods Bogies:");
-        for (GoodsBogie b : bogies) {
-            b.display();
+        } catch (InvalidCapacityException e) {
+            System.out.println("Error: " + e.getMessage());
         }
-
-        // Safety check
-        boolean isSafe = bogies.stream()
-                .allMatch(b ->
-                        !b.type.equalsIgnoreCase("Cylindrical") ||
-                                b.cargo.equalsIgnoreCase("Petroleum")
-                );
-
-        // ✅ Correct output format
-        System.out.println("\nSafety Compliance Result:");
-        if (isSafe) {
-            System.out.println("Train is SAFE");
-        } else {
-            System.out.println("Train is NOT SAFE");
-        }
-
-        System.out.println("\nUC12 safety validation completed...");
     }
 }
