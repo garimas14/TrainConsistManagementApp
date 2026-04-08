@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b956c7c-d347-4e2c-a4d6-72a5eefcc700" name="Changes" comment="" />
+    <list default="true" id="1b956c7c-d347-4e2c-a4d6-72a5eefcc700" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,15 +46,17 @@
     "Application.MaintainedBOgieID.executor": "Run",
     "Application.MapBogieToCapacity.executor": "Run",
     "Application.PreserveInsertionOrderBogie.executor": "Run",
+    "Application.SafetyComplianceCheck.executor": "Run",
     "Application.SortBogieByCapacity.executor": "Run",
     "Application.TrackUniqueBogiesID.executor": "Run",
+    "Application.ValidateTrainIDCargoCode.executor": "Run",
     "Application.WelcomePage.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "UC11-ValidateTrainIDandCargoCode",
+    "git-widget-placeholder": "UC12-SafetyCompliance",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Desktop/RA2411056010198/TrainConsistManagementApp",
     "onboarding.tips.debug.path": "C:/Users/Garima Singh/Desktop/singh/TrainConsistManagementApp/App/src/Main.java"
