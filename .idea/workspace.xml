@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b956c7c-d347-4e2c-a4d6-72a5eefcc700" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/App/src/SortBogieByCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/SortBogieByCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/src/FilterPassengerBogies.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/FilterPassengerBogies.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddPassengerBogies.executor": "Run",
+    "Application.FilterPassengerBogies.executor": "Run",
     "Application.MaintainedBOgieID.executor": "Run",
     "Application.MapBogieToCapacity.executor": "Run",
     "Application.PreserveInsertionOrderBogie.executor": "Run",
+    "Application.SortBogieByCapacity.executor": "Run",
     "Application.TrackUniqueBogiesID.executor": "Run",
     "Application.WelcomePage.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -50,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "UC7-SortBogieByCapacity",
+    "git-widget-placeholder": "UC8-FilterPassengerBogies",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Desktop/RA2411056010198/TrainConsistManagementApp",
     "onboarding.tips.debug.path": "C:/Users/Garima Singh/Desktop/singh/TrainConsistManagementApp/App/src/Main.java"
