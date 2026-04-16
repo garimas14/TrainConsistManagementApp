@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b956c7c-d347-4e2c-a4d6-72a5eefcc700" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/App/App.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +41,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddPassengerBogies.executor": "Run",
+    "Application.BSforBogieID.executor": "Run",
     "Application.CountSeats.executor": "Run",
     "Application.FilterPassengerBogies.executor": "Run",
     "Application.GroupBogies.executor": "Run",
     "Application.InvalidBogieCapacity.executor": "Run",
     "Application.LSforBogieID.executor": "Run",
+    "Application.MainApp.executor": "Run",
     "Application.MaintainedBOgieID.executor": "Run",
     "Application.MapBogieToCapacity.executor": "Run",
     "Application.PerformanceComparison.executor": "Run",
@@ -56,13 +59,14 @@
     "Application.TrackUniqueBogiesID.executor": "Run",
     "Application.ValidateTrainIDCargoCode.executor": "Run",
     "Application.WelcomePage.executor": "Run",
+    "Application.exceptionHandling.executor": "Run",
     "Application.sortbogienameusingarray.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "UC19-BinarySearchforBogieID",
+    "git-widget-placeholder": "UC20-EXHDurigSpeechOperations",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Desktop/RA2411056010198/TrainConsistManagementApp",
